@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Banner = () => {
     return (
-        <div className=" flex flex-col-reverse  mt-10 lg:flex lg:flex-row   lg:gap-64  lg:mt-20">
+        <div className=" flex flex-col-reverse  mt-10 lg:flex lg:flex-row   lg:gap-64  lg:mt-14">
             <div className=" space-y-4 ml-6 mt-10">
                 <h1 className=" md:text-center  text-4xl md:text-5xl font-bold ">Start your Journey as</h1>
                 <h1 className="  ml-24 md:ml-56 lg:ml-0 text-4xl md:text-5xl font-bold ">Influencer</h1>
