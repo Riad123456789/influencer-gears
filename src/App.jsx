@@ -1,5 +1,6 @@
 import Banner from "./Components/Banner"
 import Navbar from "./Components/Navbar"
+import Popular from "./Components/Popular"
 import Sponser from "./Components/Sponser"
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <Sponser></Sponser>
+      <Popular></Popular>
     </div>
   )
 }
