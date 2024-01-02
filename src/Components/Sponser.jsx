@@ -8,16 +8,14 @@ import icon6 from "../../public/images/logos/Target.svg"
 
 const Sponser = () => {
     return (
-        <div className="grid lg:grid-cols-7 mt-6 pt-5 pb-1   border-b-2 border-t-2 w-[85%] mx-auto">
-
-
-            <img src={icon} alt="" />
-            <img src={icon1} alt="" />
-            <img src={icon2} alt="" />
-            <img src={icon5} alt="" />
-            <img src={icon3} alt="" />
-            <img src={icon4} alt="" />
-            <img src={icon6} alt="" />
+        <div className="flex flex-wrap gap-9 lg:gap-16 px-1  justify-center items-center  mt-6 pt-5 pb-2   lg:border-b-2 lg:border-t-2 lg:w-[85%] mx-auto">
+            <img className="w-[18%] md:w-[16%] lg:w-[7%] " src={icon} alt="" />
+            <img className="w-[18%] md:w-[16%] lg:w-[7%] " src={icon1} alt="" />
+            <img className="w-[18%] md:w-[16%] lg:w-[7%] " src={icon2} alt="" />
+            <img className="w-[18%] md:w-[16%] lg:w-[7%] " src={icon5} alt="" />
+            <img className="w-[18%] md:w-[16%] lg:w-[7%] " src={icon3} alt="" />
+            <img className="w-[18%] md:w-[16%] lg:w-[7%] " src={icon4} alt="" />
+            <img className="w-[18%] md:w-[16%] lg:w-[7%] " src={icon6} alt="" />
         </div>
     );
 };

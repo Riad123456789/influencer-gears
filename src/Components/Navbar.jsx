@@ -22,13 +22,13 @@ const Navbar = () => {
 
                 <div className="navbar-end">
                     <ul className="menu menu-horizontal hidden font-semibold  px-1  lg:flex  ">
-                        <li><a>Home </a></li>
-                        <li><a>Products </a></li>
-                        <li><a>Sign up </a></li>
-                        <li><a>Log In </a></li>
+                        <li className="hover:text-red-700 "><a>Home </a></li>
+                        <li className="hover:text-red-700 "><a>Products </a></li>
+                        <li className="hover:text-red-700 "><a>Sign up </a></li>
+                        <li className="hover:text-red-700 "><a>Log In </a></li>
                     </ul>
-                    <div className="pr-3 hidden lg:flex "><LuSearch></LuSearch></div>
-                <div><AiOutlineShoppingCart size={20}></AiOutlineShoppingCart></div>
+                    <div className="pr-3 hidden lg:flex cursor-pointer "><LuSearch></LuSearch></div>
+                <div className="cursor-pointer"><AiOutlineShoppingCart size={20}></AiOutlineShoppingCart></div>
                 </div>
               
             </div>
