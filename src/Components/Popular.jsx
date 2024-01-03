@@ -1,5 +1,5 @@
 import img from "../../public/images/logos/airpod.png"
-
+import { FaArrowRightLong } from "react-icons/fa6";
 const Popular = () => {
     return (
         <div className="mb-10 mt-20  w-[90%] mx-auto">
@@ -206,9 +206,12 @@ const Popular = () => {
                         </div>
                     </div>
                 </div>
+            </div>
 
-
-
+            <div className="  lg:ml-[87%] mt-8">
+                <button className="text-[#E02C6D] flex  items-center gap-2">
+                    see more <FaArrowRightLong className="pt-1"></FaArrowRightLong>
+                </button>
             </div>
 
         </div>
